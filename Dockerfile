@@ -1,7 +1,7 @@
 FROM openjdk:10-jre-slim
 
 WORKDIR /app
-COPY   ./workspace/maven1/target/my-app-1.0-SNAPSHOT.jar /app
+COPY   /home/jenkins/workspace/maven1/target/my-app-1.0-SNAPSHOT.jar /app
 
 EXPOSE 8080
 
